@@ -1,10 +1,11 @@
+import Sidebar from '../dashboard/Sidebar'
+
+
 
 const DashboardLayout =({children})=> {
     return (
-        <div>
-            <div>
-                sidebar
-            </div>
+        <div className='flex container mx-auto  ' >
+            <Sidebar />
             {children}
         </div>
     );
